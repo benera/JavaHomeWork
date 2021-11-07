@@ -9,10 +9,7 @@ public class Cat extends Animal {
         super ("Молоко и рыба", "Квартира");
     }
 
-    public Cat(String food, String location) {
-        super (food, location);
-    }
-
+   
     public String getColor() {
         return color;
     }
