@@ -17,8 +17,6 @@ public class ClientInterface extends JFrame implements ActionListener {
     private final JTextArea textArea = new JTextArea ( );
     private final JTextField name = new JTextField ("ЧАТИК");
     private final JTextField input = new JTextField ( );
-    JLabel name2 = new JLabel ( );
-    String color256 = "\u001B[38;2;";
 
 
     public static void main(String[] args) throws Exception {
